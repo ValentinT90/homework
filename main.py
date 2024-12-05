@@ -15,7 +15,8 @@ if __name__ == '__main__':
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
 print('"Hello World"')
-print(type("Hello World!")) #String- строка  #boolean-логический тип данных Float
+print(type("Hello World!"))
+#String- строка  #boolean-логический тип данных Float-плавающая точка int-целое число
 print(48==24+24 and 28==50-22)
 
 print("Hallo World")# lkvnlkrn
@@ -30,5 +31,6 @@ print(2*(2+2))
 print((2*2+2)==(2*(2+2)))
 #4th program
 
-print(float('123.456')*10)
-print(float('123.456')*10)
+# print(float('123.456')*10)
+daria='123.456'
+print(int(float(daria)*10%10))
