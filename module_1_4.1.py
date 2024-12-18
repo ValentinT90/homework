@@ -1,0 +1,7 @@
+my_string=input('Кто жил у бабуси? ')
+print(len(my_string))
+print(my_string.upper())
+print(my_string.lower())
+print('Два веселых гуся'.replace(' ',''))
+print('Два веселых гуся'[0])
+print('Два веселых гуся'[15])
