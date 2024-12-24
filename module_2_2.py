@@ -1,13 +1,12 @@
 first = 151
-second = 159
-third = 153
-# print(int(input('Количество одинаковых чисел среди 3-х введёных: ')))
+second = 149
+third = 188
 if first == second and second == third:
     print(int(3))
 elif first == second or second == third:
     print(int(2))
+elif first == second or second == third or first == third:
+    print(int(2))
 else:
-    first
-not (second and third)
-print(int(0))
+    print(int(0))
 
