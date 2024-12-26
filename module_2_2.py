@@ -3,10 +3,9 @@ second = 149
 third = 188
 if first == second and second == third:
     print(int(3))
-elif first == second or second == third:
-    print(int(2))
 elif first == second or second == third or first == third:
     print(int(2))
 else:
-    print(int(0))
+    if not (first == second or second == third or first == third):
+     print(int(0))
 
